@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.427510675592-33t3lgekioo04ev9lfdake07l4en1uve</string>
+			</array>
+		</dict>
+	</array>
+	<key>GIDClientID</key>
+	<string>427510675592-33t3lgekioo04ev9lfdake07l4en1uve.apps.googleusercontent.com</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Profil fotoğrafınızı değiştirmek için galeriye erişim izni gereklidir.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Profil fotoğrafı çekmek için kameraya erişim izni gereklidir.</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>Gizli sohbetlerinize erişmek için Face ID kullanılır.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Çevrenizdeki etkinlikleri haritada görmek için konum izni gereklidir.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Hikaye videosu kaydederken ses için mikrofon izni gereklidir.</string>
+</dict>
+</plist>

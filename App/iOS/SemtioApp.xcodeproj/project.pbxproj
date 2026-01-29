@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D71F412B2F269A210031E99D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D71F412A2F269A210031E99D /* GoogleService-Info.plist */; };
+		D7617DAD2F23CEB400A866D2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AB7ABBE52F183C5A00D800F9 /* FirebaseAuth */; };
+		D7617DAE2F23CEB400A866D2 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = AB7ABBE72F183C5A00D800F9 /* FirebaseCore */; };
+		D7617DAF2F23CEB400A866D2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AB7ABBE92F183C5A00D800F9 /* FirebaseFirestore */; };
+		D7617DB02F23CEB400A866D2 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = AB7ABBEB2F183C5A00D800F9 /* FirebaseFunctions */; };
+		D7617DB12F23CEB400A866D2 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = AB7ABBED2F183C5A00D800F9 /* FirebaseMessaging */; };
+		D7617DB22F23CEB400A866D2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AB7ABBEF2F183C5A00D800F9 /* FirebaseStorage */; };
+		D76181882F23E7A200A866D2 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D76181872F23E7A200A866D2 /* GoogleSignIn */; };
+		D761818A2F23E7A200A866D2 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D76181892F23E7A200A866D2 /* GoogleSignInSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3996C78B2F14624B00D1C0F3 /* SemtioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SemtioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D71F412A2F269A210031E99D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		AB0552742F16F27900EDB41A /* Exceptions for "SemtioApp" folder in "SemtioApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3996C78A2F14624B00D1C0F3 /* SemtioApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3996C78D2F14624B00D1C0F3 /* SemtioApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				AB0552742F16F27900EDB41A /* Exceptions for "SemtioApp" folder in "SemtioApp" target */,
+			);
+			path = SemtioApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3996C7882F14624B00D1C0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7617DB22F23CEB400A866D2 /* FirebaseStorage in Frameworks */,
+				D7617DB12F23CEB400A866D2 /* FirebaseMessaging in Frameworks */,
+				D7617DB02F23CEB400A866D2 /* FirebaseFunctions in Frameworks */,
+				D761818A2F23E7A200A866D2 /* GoogleSignInSwift in Frameworks */,
+				D7617DAF2F23CEB400A866D2 /* FirebaseFirestore in Frameworks */,
+				D7617DAE2F23CEB400A866D2 /* FirebaseCore in Frameworks */,
+				D7617DAD2F23CEB400A866D2 /* FirebaseAuth in Frameworks */,
+				D76181882F23E7A200A866D2 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3996C7822F14624B00D1C0F3 = {
+			isa = PBXGroup;
+			children = (
+				3996C78D2F14624B00D1C0F3 /* SemtioApp */,
+				3996C78C2F14624B00D1C0F3 /* Products */,
+				D71F412A2F269A210031E99D /* GoogleService-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		3996C78C2F14624B00D1C0F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3996C78B2F14624B00D1C0F3 /* SemtioApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3996C78A2F14624B00D1C0F3 /* SemtioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3996C7982F14624F00D1C0F3 /* Build configuration list for PBXNativeTarget "SemtioApp" */;
+			buildPhases = (
+				3996C7872F14624B00D1C0F3 /* Sources */,
+				3996C7882F14624B00D1C0F3 /* Frameworks */,
+				3996C7892F14624B00D1C0F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3996C78D2F14624B00D1C0F3 /* SemtioApp */,
+			);
+			name = SemtioApp;
+			packageProductDependencies = (
+				AB7ABBE52F183C5A00D800F9 /* FirebaseAuth */,
+				AB7ABBE72F183C5A00D800F9 /* FirebaseCore */,
+				AB7ABBE92F183C5A00D800F9 /* FirebaseFirestore */,
+				AB7ABBEB2F183C5A00D800F9 /* FirebaseFunctions */,
+				AB7ABBED2F183C5A00D800F9 /* FirebaseMessaging */,
+				AB7ABBEF2F183C5A00D800F9 /* FirebaseStorage */,
+				D76181872F23E7A200A866D2 /* GoogleSignIn */,
+				D76181892F23E7A200A866D2 /* GoogleSignInSwift */,
+			);
+			productName = SemtioApp;
+			productReference = 3996C78B2F14624B00D1C0F3 /* SemtioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3996C7832F14624B00D1C0F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					3996C78A2F14624B00D1C0F3 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = 3996C7862F14624B00D1C0F3 /* Build configuration list for PBXProject "SemtioApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3996C7822F14624B00D1C0F3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AB7ABBE42F183C5A00D800F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D76181862F23E7A200A866D2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3996C78C2F14624B00D1C0F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3996C78A2F14624B00D1C0F3 /* SemtioApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3996C7892F14624B00D1C0F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D71F412B2F269A210031E99D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3996C7872F14624B00D1C0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3996C7962F14624F00D1C0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FPUQ3562NM;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3996C7972F14624F00D1C0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FPUQ3562NM;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3996C7992F14624F00D1C0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SemtioApp/SemtioApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W88RGMLYRM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SemtioApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = semtio;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Paylaşım yapmak için kamera erişimi gereklidir.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Yakınınızdaki etkinlikleri gösterebilmek için konum izni gerekir.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Video kaydı için mikrofon erişimi gereklidir.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Paylaşım yapmak için galeri erişimi gereklidir.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alazonforce.semtio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3996C79A2F14624F00D1C0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SemtioApp/SemtioApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W88RGMLYRM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SemtioApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = semtio;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Paylaşım yapmak için kamera erişimi gereklidir.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Yakınınızdaki etkinlikleri gösterebilmek için konum izni gerekir.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Video kaydı için mikrofon erişimi gereklidir.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Paylaşım yapmak için galeri erişimi gereklidir.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alazonforce.semtio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3996C7862F14624B00D1C0F3 /* Build configuration list for PBXProject "SemtioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3996C7962F14624F00D1C0F3 /* Debug */,
+				3996C7972F14624F00D1C0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3996C7982F14624F00D1C0F3 /* Build configuration list for PBXNativeTarget "SemtioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3996C7992F14624F00D1C0F3 /* Debug */,
+				3996C79A2F14624F00D1C0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AB7ABBE42F183C5A00D800F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+		D76181862F23E7A200A866D2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AB7ABBE52F183C5A00D800F9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB7ABBE42F183C5A00D800F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AB7ABBE72F183C5A00D800F9 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB7ABBE42F183C5A00D800F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		AB7ABBE92F183C5A00D800F9 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB7ABBE42F183C5A00D800F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AB7ABBEB2F183C5A00D800F9 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB7ABBE42F183C5A00D800F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		AB7ABBED2F183C5A00D800F9 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB7ABBE42F183C5A00D800F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		AB7ABBEF2F183C5A00D800F9 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB7ABBE42F183C5A00D800F9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		D76181872F23E7A200A866D2 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D76181862F23E7A200A866D2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		D76181892F23E7A200A866D2 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D76181862F23E7A200A866D2 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3996C7832F14624B00D1C0F3 /* Project object */;
+}

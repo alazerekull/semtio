@@ -1,0 +1,47 @@
+# Xcode
+xcuserdata/
+**/*.xcuserdata/
+*.xcuserstate
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+.build/
+Carthage/Build/
+
+# Build artifacts
+**/build/
+**/DerivedData/
+
+# Node.js
+**/node_modules/
+npm-debug.log*
+
+# Compiled Firebase functions
+functions/lib/
+Backend/Firebase/functions/lib/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Backup files
+*.bak
+*.backup.*
+**/.git_BACKUP/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Secrets (NEVER COMMIT)
+**/serviceAccount*.json
+**/*.p8
+**/*.pem
+**/*.key
+**/.env*
+**/Secrets*.swift

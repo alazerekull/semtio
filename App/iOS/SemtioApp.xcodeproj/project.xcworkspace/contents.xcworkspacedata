@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:">
+   </FileRef>
+   <FileRef
+      location = "group:Core_Data_PaginationHelper.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Core_Infrastructure_Cache_MemoryCache.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Core_Data_Repository_CachedUserRepository.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Core_Infrastructure_Storage_ImageUploadService.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Core_Domain_Extensions_MediaThumbnails.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Core_Architecture_FeedDenormalization.md">
+   </FileRef>
+   <FileRef
+      location = "group:Core_Observability_FirebasePerformanceSetup.swift">
+   </FileRef>
+   <FileRef
+      location = "group:firestore.indexes.json">
+   </FileRef>
+   <FileRef
+      location = "group:firestore.rules">
+   </FileRef>
+   <FileRef
+      location = "group:VERIFICATION_CHECKLIST.md">
+   </FileRef>
+   <FileRef
+      location = "group:IMPLEMENTATION_ROADMAP.md">
+   </FileRef>
+</Workspace>

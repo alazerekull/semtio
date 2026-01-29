@@ -1,0 +1,28 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // 1. Avatars: avatars/{fileName} (where filename starts with uid)
+    match /avatars/{fileName} {
+      allow read: if true;
+      allow write: if request.auth != null && fileName.matches(request.auth.uid + '.*');
+    }
+
+    // 2. User Posts: posts/{userId}/{allPaths=**}
+    match /posts/{userId}/{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // 3. User Events: events/{userId}/{allPaths=**}
+    match /events/{userId}/{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Default: Deny
+    match /{allPaths=**} {
+      allow read, write: if false; 
+    }
+  }
+}
